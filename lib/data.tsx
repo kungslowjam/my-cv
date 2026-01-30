@@ -103,8 +103,8 @@ export const projects: Project[] = [
         media: [
             { type: "image", src: "/projects/Thesis-1.png", alt: "Weed-killing robot CAD assembly diagram" },
             { type: "image", src: "/projects/Thesis-2.png", alt: "Weed-killing robot electronics overview" },
-            { type: "youtube", src: "https://www.youtube.com/watch?v=2grcjVSEPCs", alt: "Robot field test footage 1" },
-            { type: "youtube", src: "https://www.youtube.com/watch?v=87SX1dxFfIA", alt: "Robot field test footage 2" },
+            { type: "youtube", src: "https://www.youtube.com/watch?v=87SX1dxFfIA", alt: "Robot field test footage 1" },
+            { type: "youtube", src: "https://www.youtube.com/watch?v=2grcjVSEPCs", alt: "Robot field test footage 2" },
         ],
     },
 ]
@@ -170,7 +170,7 @@ export const skillCategories = [
     },
     {
         category: "Embedded / IoT",
-        skills: ["Arduino", "ESP32", "STM32", "LoRa", "Meshtastic", "MQTT", "Jetson", "Raspberry Pi"],
+        skills: ["C++", "LVGL", "Arduino", "ESP32", "STM32", "LoRa", "Meshtastic", "MQTT", "Jetson", "Raspberry Pi"],
     },
     {
         category: "Robotics",

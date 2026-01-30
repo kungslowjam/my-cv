@@ -26,8 +26,8 @@ export function Navbar() {
         isScrolled ? "bg-background/80 backdrop-blur-md border-b border-border shadow-sm" : "bg-transparent",
       )}
     >
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16">
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" suppressHydrationWarning>
+        <div className="flex items-center justify-between h-16" suppressHydrationWarning>
           <a href="#" className="font-semibold text-lg text-foreground" suppressHydrationWarning>
             KA<span className="text-muted-foreground">.</span>
           </a>

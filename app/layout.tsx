@@ -48,8 +48,26 @@ export default function RootLayout({
     <html lang="en">
       <body className={`font-sans antialiased`} suppressHydrationWarning={true}>
         <Script id="strip-bis-attributes" strategy="beforeInteractive">
-          {`document.querySelectorAll('[bis_skin_checked]').forEach((el) => el.removeAttribute('bis_skin_checked'));
-document.querySelectorAll('[bis_register]').forEach((el) => el.removeAttribute('bis_register'));`}
+          {`
+            (function() {
+              function strip() {
+                document.querySelectorAll('[bis_skin_checked]').forEach((el) => el.removeAttribute('bis_skin_checked'));
+                document.querySelectorAll('[bis_register]').forEach((el) => el.removeAttribute('bis_register'));
+              }
+              strip();
+              // Observe for changes to catch late injections by extensions
+              const observer = new MutationObserver((mutations) => {
+                let shouldStrip = false;
+                mutations.forEach((mutation) => {
+                  if (mutation.type === 'attributes' && (mutation.attributeName === 'bis_skin_checked' || mutation.attributeName === 'bis_register')) {
+                    shouldStrip = true;
+                  }
+                });
+                if (shouldStrip) strip();
+              });
+              observer.observe(document.documentElement, { attributes: true, subtree: true, attributeFilter: ['bis_skin_checked', 'bis_register'] });
+            })();
+          `}
         </Script>
         {children}
         <Analytics />

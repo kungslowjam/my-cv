@@ -6,7 +6,7 @@ const dest = path.join(__dirname, 'public', 'cv.pdf');
 
 try {
     fs.copyFileSync(src, dest);
-    console.log('Copy successful');
+    console.log('File copied successfully from ' + src + ' to ' + dest);
 } catch (err) {
-    console.error('Copy failed:', err);
+    console.error('Error copying file:', err);
 }
