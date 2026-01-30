@@ -21,6 +21,7 @@ import scss2 from "../pic/SCSS-2.png"
 import scss3 from "../pic/SCSS-3.png"
 import kuLogo from "../pic/KU_Logo.png"
 import flindersLogo from "../pic/Flinders.png"
+import kilinPic from "../pic/kilin.png"
 
 export type ProjectMedia =
     | { type: "image"; src: any; alt: string }
@@ -73,7 +74,7 @@ export const projects: Project[] = [
             { type: "image", src: "/projects/coffee-banner.png", alt: "Coffee husk carbon briquette outreach poster" },
             { type: "image", src: "/projects/coffee-kiln.png", alt: "TISTR prototype kiln design" },
             { type: "image", src: "/projects/coffee-feedstock.png", alt: "Coffee husk feedstock comparison" },
-            { type: "image", src: "/projects/kilin.png", alt: "Kiln operation process" },
+            { type: "image", src: kilinPic, alt: "Kiln operation process" },
         ],
     },
     {
