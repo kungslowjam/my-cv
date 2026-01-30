@@ -73,6 +73,7 @@ export const projects: Project[] = [
             { type: "image", src: "/projects/coffee-banner.png", alt: "Coffee husk carbon briquette outreach poster" },
             { type: "image", src: "/projects/coffee-kiln.png", alt: "TISTR prototype kiln design" },
             { type: "image", src: "/projects/coffee-feedstock.png", alt: "Coffee husk feedstock comparison" },
+            { type: "image", src: "/projects/kilin.png", alt: "Kiln operation process" },
         ],
     },
     {
