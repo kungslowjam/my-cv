@@ -1,0 +1,32 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1027 419">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b1f14" />
+      <stop offset="100%" stop-color="#0f0a09" />
+    </linearGradient>
+  </defs>
+  <rect width="1027" height="419" fill="url(#grad)" />
+  <rect x="640" y="0" width="387" height="419" fill="#6b320f" />
+  <text x="700" y="140" font-family="Segoe UI" font-size="48" font-weight="700" fill="#ffd229">Coffee Husk</text>
+  <text x="700" y="192" font-family="Segoe UI" font-size="48" font-weight="700" fill="#ffd229">Carbon Briquettes</text>
+  <text x="700" y="250" font-family="Segoe UI" font-size="26" fill="#fff">Clean fuel, lower emissions</text>
+  <text x="700" y="288" font-family="Segoe UI" font-size="26" fill="#fff">Empower local farmers</text>
+  <text x="700" y="326" font-family="Segoe UI" font-size="26" fill="#fff">TISTR x ESG Universe</text>
+  <rect x="120" y="70" width="160" height="220" rx="30" fill="#c6b294" />
+  <rect x="120" y="70" width="160" height="50" rx="20" fill="#201815" />
+  <rect x="90" y="280" width="220" height="110" rx="30" fill="#efebeb" opacity="0.4" />
+  <g transform="translate(320 160)">
+    <path d="M0 0h160l40 40-40 40H0z" fill="#353535" />
+    <circle cx="40" cy="40" r="18" fill="#1b1b1b" />
+    <circle cx="80" cy="40" r="18" fill="#1b1b1b" />
+    <circle cx="120" cy="40" r="18" fill="#1b1b1b" />
+  </g>
+  <g transform="translate(320 250)">
+    <path d="M0 0h160l40 40-40 40H0z" fill="#353535" />
+    <circle cx="40" cy="40" r="18" fill="#1b1b1b" />
+    <circle cx="80" cy="40" r="18" fill="#1b1b1b" />
+    <circle cx="120" cy="40" r="18" fill="#1b1b1b" />
+  </g>
+  <ellipse cx="260" cy="340" rx="140" ry="30" fill="#5c2c12" />
+  <ellipse cx="260" cy="330" rx="150" ry="40" fill="#7b3a1b" />
+</svg>

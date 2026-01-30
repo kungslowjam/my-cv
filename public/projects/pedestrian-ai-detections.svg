@@ -1,0 +1,29 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="517" height="418" viewBox="0 0 517 418">
+  <rect width="517" height="418" fill="#0f1115" />
+  <g transform="translate(28 24)">
+    <rect width="200" height="150" fill="#1d1f24" rx="8" stroke="#363b47" stroke-width="2" />
+    <text x="100" y="20" font-family="Segoe UI" font-size="14" fill="#a2acc0" text-anchor="middle">Speed Detection</text>
+    <rect x="16" y="48" width="160" height="60" fill="#14181f" stroke="#d43162" stroke-width="2" rx="6" />
+    <text x="96" y="83" font-family="Segoe UI" font-size="18" fill="#f3f4f6" text-anchor="middle">Region 1</text>
+  </g>
+  <g transform="translate(256 24)">
+    <rect width="233" height="150" fill="#1d1f24" rx="8" stroke="#363b47" stroke-width="2" />
+    <text x="116" y="20" font-family="Segoe UI" font-size="14" fill="#a2acc0" text-anchor="middle">Pedestrian Detection</text>
+    <rect x="24" y="58" width="90" height="58" fill="#14181f" stroke="#5bc0f8" stroke-width="2" rx="6" />
+    <text x="69" y="92" font-family="Segoe UI" font-size="18" fill="#f3f4f6" text-anchor="middle">Person</text>
+    <rect x="132" y="58" width="80" height="58" fill="#14181f" stroke="#fbd34d" stroke-width="2" rx="6" />
+    <text x="172" y="92" font-family="Segoe UI" font-size="18" fill="#f3f4f6" text-anchor="middle">Vehicle</text>
+  </g>
+  <g transform="translate(28 214)">
+    <rect width="233" height="180" fill="#1d1f24" rx="8" stroke="#363b47" stroke-width="2" />
+    <text x="116" y="28" font-family="Segoe UI" font-size="14" fill="#a2acc0" text-anchor="middle">Thermal View</text>
+    <rect x="22" y="58" width="190" height="96" fill="#14181f" stroke="#d43162" stroke-width="2" rx="6" />
+    <text x="117" y="110" font-family="Segoe UI" font-size="18" fill="#f3f4f6" text-anchor="middle">Tracking</text>
+  </g>
+  <g transform="translate(285 214)">
+    <rect width="204" height="180" fill="#1d1f24" rx="8" stroke="#363b47" stroke-width="2" />
+    <text x="102" y="28" font-family="Segoe UI" font-size="14" fill="#a2acc0" text-anchor="middle">Night Mode</text>
+    <rect x="26" y="58" width="152" height="96" fill="#14181f" stroke="#5bc0f8" stroke-width="2" rx="6" />
+    <text x="102" y="110" font-family="Segoe UI" font-size="18" fill="#f3f4f6" text-anchor="middle">Vehicle Paths</text>
+  </g>
+</svg>

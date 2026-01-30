@@ -1,0 +1,21 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1043 534">
+  <rect width="1043" height="534" fill="#fef9ed" />
+  <rect x="40" y="40" width="963" height="454" rx="24" fill="#fff" stroke="#e0d2b5" stroke-width="6" />
+  <text x="60" y="90" font-family="Segoe UI" font-size="32" fill="#8a6a2e">Coffee Husk Feedstock</text>
+  <g transform="translate(80 140)">
+    <rect width="420" height="320" rx="18" fill="#fff5da" stroke="#dcbf69" stroke-width="4" />
+    <circle cx="40" cy="40" r="20" fill="#cfa24f" />
+    <text x="80" y="50" font-family="Segoe UI" font-size="22" fill="#8a6a2e">A: Clean coffee husk</text>
+    <rect x="40" y="90" width="340" height="180" rx="24" fill="#f7d89b" />
+    <path d="M60 160 q60-80 120 0t120 0q60-80 120 0" fill="#e7c174" />
+    <path d="M60 180 q60-60 120 0t120 0q60-60 120 0" fill="#d19f52" />
+  </g>
+  <g transform="translate(560 140)">
+    <rect width="420" height="320" rx="18" fill="#fff5da" stroke="#dcbf69" stroke-width="4" />
+    <circle cx="40" cy="40" r="20" fill="#cfa24f" />
+    <text x="80" y="50" font-family="Segoe UI" font-size="22" fill="#8a6a2e">B: Husk + cherry pulp mix</text>
+    <rect x="40" y="90" width="340" height="180" rx="24" fill="#f0c389" />
+    <path d="M60 170 q90-100 150 0t150 0q90-100 150 0" fill="#cf844a" />
+    <path d="M60 190 q90-70 150 0t150 0q90-70 150 0" fill="#ad5a2a" />
+  </g>
+</svg>

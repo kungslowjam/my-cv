@@ -1,0 +1,12 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 547 547">
+  <rect width="547" height="547" fill="#f7f9fc" />
+  <rect x="60" y="60" width="427" height="427" rx="20" fill="#fff" stroke="#d8dfeb" stroke-width="4" />
+  <path d="M120 380 L120 220 L190 140 L357 140 L427 220 L427 380 Z" fill="#d0dae8" stroke="#8794aa" stroke-width="8" />
+  <path d="M160 420 L230 460 L330 460 L400 420" fill="#c4cede" stroke="#8794aa" stroke-width="6" />
+  <rect x="210" y="180" width="150" height="120" rx="10" fill="#f8fafc" stroke="#8794aa" stroke-width="6" />
+  <circle cx="285" cy="240" r="35" fill="#d0dae8" stroke="#8794aa" stroke-width="6" />
+  <rect x="190" y="300" width="190" height="28" rx="14" fill="#a7b4c7" />
+  <circle cx="140" cy="420" r="25" fill="#9fb0c9" />
+  <circle cx="410" cy="420" r="25" fill="#9fb0c9" />
+  <text x="90" y="500" font-family="Segoe UI" font-size="28" fill="#3b4d66">TISTR prototype kiln design</text>
+</svg>
