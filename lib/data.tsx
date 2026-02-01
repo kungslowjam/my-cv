@@ -274,6 +274,18 @@ export const researchInterests = [
 
 export const sideProjects = [
     {
+        title: "DeskBit – Desktop Companion Robot",
+        description:
+            "Cute desktop companion device with 1.43\" round AMOLED display powered by ESP32-S3. Features animated robot eyes, Pomodoro timer, and a web-based Robot Face Studio for designing custom eye expressions and animations.",
+        link: "https://github.com/kungslowjam/deskbit",
+        youtube: "https://www.youtube.com/watch?v=HIJs3vWXdCQ",
+        stack: ["ESP32-S3", "LVGL", "C++", "Python", "Web Editor"],
+        image: {
+            src: "/projects/deskbit.png",
+            alt: "DeskBit desktop companion robot with round AMOLED display",
+        },
+    },
+    {
         title: "EleBull – Edge AI Dashboard",
         description:
             "Desktop dashboard built with Flet (Flutter for Python) to monitor TPU metrics, trigger inference pipelines, and visualize EleBull IoT sensor events in real time.",
