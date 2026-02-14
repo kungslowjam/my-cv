@@ -274,6 +274,18 @@ export const researchInterests = [
 
 export const sideProjects = [
     {
+        title: "ROS2-Isaac Robot Teleoperation",
+        description:
+            "Real-time teleoperation of robots in NVIDIA Isaac Sim using MediaPipe and ROS2. Features low-latency control of dual robot arms and grippers through webcam-based human pose tracking with stable multiprocessing.",
+        link: "https://github.com/kungslowjam/ros2-isaac",
+        youtube: "https://youtube.com/shorts/McDKHZ3tSj0",
+        stack: ["Isaac Sim", "ROS2", "MediaPipe", "Python", "USD"],
+        image: {
+            src: "https://img.youtube.com/vi/McDKHZ3tSj0/0.jpg",
+            alt: "ROS2-Isaac Robot Teleoperation demo",
+        },
+    },
+    {
         title: "DeskBit – Desktop Companion Robot",
         description:
             "Cute desktop companion device with 1.43\" round AMOLED display powered by ESP32-S3. Features animated robot eyes, Pomodoro timer, and a web-based Robot Face Studio for designing custom eye expressions and animations.",
