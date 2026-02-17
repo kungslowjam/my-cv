@@ -274,15 +274,15 @@ export const researchInterests = [
 
 export const sideProjects = [
     {
-        title: "ROS2-Isaac Robot Teleoperation",
+        title: "Isaac Robot Teleoperation",
         description:
-            "Real-time teleoperation of robots in NVIDIA Isaac Sim using MediaPipe and ROS2. Features low-latency control of dual robot arms and grippers through webcam-based human pose tracking with stable multiprocessing.",
+            "Real-time teleoperation of robots in NVIDIA Isaac Sim using MediaPipe. Features low-latency control of dual robot arms and grippers through webcam-based human pose tracking with stable multiprocessing.",
         link: "https://github.com/kungslowjam/ros2-isaac",
         youtube: "https://youtube.com/shorts/McDKHZ3tSj0",
-        stack: ["Isaac Sim", "ROS2", "MediaPipe", "Python", "USD"],
+        stack: ["Isaac Sim", "MediaPipe", "Python", "USD"],
         image: {
             src: "https://img.youtube.com/vi/McDKHZ3tSj0/0.jpg",
-            alt: "ROS2-Isaac Robot Teleoperation demo",
+            alt: "Isaac Robot Teleoperation demo",
         },
     },
     {
