@@ -239,7 +239,7 @@ export const about = {
             <span className="font-medium text-foreground">MCS (AI)</span> at Flinders University (expected Dec 2026)
             and Research Assistant at TISTR.
         </>,
-        "I am preparing for a PhD in applied robotics within my scholarship scope of Computer Science/IT, with broad interests across mechatronics, AI-enabled systems, data-driven methods, and real-world deployment.",
+        "I am preparing for a PhD in applied robotics within my scholarship scope of Computer Science/IT, with broad interests across mechatronics, AI-enabled systems, data-driven methods, and real-world deployment. Fully funded by OCSC; eligible for additional university/top-up scholarships where permitted (non-bonded, subject to approval).",
     ],
     resumeUrl: "/cv.pdf", // Placeholder
 }
