@@ -19,6 +19,7 @@ import simPic from "../pic/sim.png"
 import scss1 from "../pic/SCSS-1.png"
 import scss2 from "../pic/SCSS-2.png"
 import scss3 from "../pic/SCSS-3.png"
+import scss4 from "../pic/SCSS-4.png"
 import kuLogo from "../pic/KU_Logo.png"
 import flindersLogo from "../pic/Flinders.png"
 import kilinPic from "../pic/kilin.png"
@@ -49,6 +50,7 @@ export const projects: Project[] = [
             { type: "image", src: scss1, alt: "Smart crossing system layout diagram" },
             { type: "image", src: scss2, alt: "Smart Crosswalk Safety System UI screenshot" },
             { type: "image", src: scss3, alt: "AI detection dashboard output" },
+            { type: "image", src: scss4, alt: "Smart crossing system demonstration" },
         ],
     },
     {
