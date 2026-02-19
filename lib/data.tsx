@@ -233,12 +233,11 @@ export const contactInfo = [
 export const about = {
     paragraphs: [
         <>
-            Royal Thai Government (OCSC) Scholar currently completing a{" "}
-            <span className="font-medium text-foreground" suppressHydrationWarning>Master of Computer Science (AI)</span> at Flinders University,
-            serving as a Research Assistant at TISTR, and planning to pursue a PhD focused on applied robotics.
+            Royal Thai Government (OCSC) Scholar completing an{" "}
+            <span className="font-medium text-foreground">MCS (AI)</span> at Flinders University (expected Dec 2026)
+            and Research Assistant at TISTR.
         </>,
-        "I build field-ready AI/robotics systems spanning computer vision, embedded devices, and environmental sensing. My work focuses on smart mobility, wildlife protection, and environmental intelligence.",
-        "With a background in mechanical engineering and hands-on experience in industrial automation, I bridge the gap between theoretical AI research and practical robotic deployments in challenging real-world environments.",
+        "I am preparing for a PhD in applied robotics within my scholarship scope of Computer Science/IT, with broad interests across mechatronics, AI-enabled systems, data-driven methods, and real-world deployment.",
     ],
     resumeUrl: "/cv.pdf", // Placeholder
 }
