@@ -39,12 +39,12 @@ export type Project = {
 
 export const projects: Project[] = [
     {
-        title: "Pedestrian Crossing Detection Using Artificial Intelligence Control",
+        title: "Pedestrian Crossing Detection with AI-Controlled PLC Traffic System (Jetson Industrial Orin)",
         year: "2025",
         description:
-            "Designed a smart crossing system with real-time human detection and compact CV pipeline. Integrated YOLOv10 with PLC-based traffic control for enhanced pedestrian safety.",
+            "Designed a smart pedestrian crossing system with real-time human detection and an edge-friendly CV pipeline deployed on NVIDIA Jetson Industrial Orin. Integrated YOLOv10 with PLC-based traffic-light control to improve crossing safety and response time. Project funding: THB 560,000.",
         icon: Camera,
-        tags: ["YOLOv10", "PLC", "Real-time", "Project Leader"],
+        tags: ["YOLOv10", "PLC", "Jetson Orin", "Real-time", "Project Leader"],
         media: [
             { type: "image", src: scss1, alt: "Smart crossing system layout diagram" },
             { type: "image", src: scss2, alt: "Smart Crosswalk Safety System UI screenshot" },
