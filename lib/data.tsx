@@ -111,6 +111,17 @@ export const projects: Project[] = [
             { type: "youtube", src: "https://www.youtube.com/watch?v=2grcjVSEPCs", alt: "Robot field test footage 2" },
         ],
     },
+    {
+        title: "Robotic Plasma Cutting System for Gas Cylinders",
+        year: "2018",
+        description:
+            "Developed and integrated a robotic plasma cutting system specifically designed for cutting the base of cooking gas cylinders.",
+        icon: Bot,
+        tags: ["Robotics", "Plasma Cutting", "Automation", "Manufacturing"],
+        media: [
+            { type: "youtube", src: "https://youtube.com/shorts/MmRyXz4pvY8?si=YLZyjBBuJcuFFzVO", alt: "Robotic plasma cutting system in action" },
+        ],
+    },
 ]
 
 export const education = [
